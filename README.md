@@ -1,12 +1,23 @@
-# React + Vite
+# Verity – Personal Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive finance dashboard that helps users track their spending and income. The dashboard provides an overview of monthly expenses and budgets with interactive charts and cards.
 
-Currently, two official plugins are available:
+## Features
+📊 Overview Dashboard – balance, total income, and expenses cards.
+💵 Add Transactions – add new income/expense using a drawer form.
+📅 Recent Transactions – searchable & filterable transaction table with edit/delete.
+📈 Monthly Spending Chart – line chart with gradient area.
+🥧 Category Breakdown – spending distribution pie chart.
+🎯 Budget Tracking – progress bar with editable monthly budget.
+📱 Responsive Design – works on desktop, tablet, and mobile.
+⏳ Skeleton Loaders – smooth loading states for better UX.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend: React (Vite)
+Styling: TailwindCSS + shadcn/ui
+Charts: Recharts
+Forms & Validation: React Hook Form + Zod
+Routing: React Router
+
